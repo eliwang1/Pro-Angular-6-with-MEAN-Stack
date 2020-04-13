@@ -54,6 +54,4 @@ export class StoreComponent {
 //        console.log(this.cart);
         this.cartrepository.saveCart(this.cart);
     }
-
-
 }
