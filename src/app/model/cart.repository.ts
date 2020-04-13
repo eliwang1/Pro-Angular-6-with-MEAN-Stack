@@ -11,7 +11,6 @@ export class CartRepository {
     carts: any = {};
     constructor(private http: HttpClient, private router: Router) {
         this.http.get('/cart').subscribe(data => {
-            console.log(data);
             this.carts = data;
           }); 
     }
